@@ -3,7 +3,7 @@ import Typed from "react-typed";
 import Button  from './Button';
 const Header = () => {
   return (
-    <div className="header-wraper">
+    <div id="home" className="header-wraper">
       <div className = "main-info">
         <h1> Full Stack Web developer</h1>
         <Typed className="type-text" strings={

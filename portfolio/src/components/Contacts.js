@@ -28,9 +28,9 @@ const onSubmit = (data, r)=>{
       }).catch(err=> console.log(`something wrong ${err}`));
   }
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className ="text-center">
-      <h1>Contact Me <hr /></h1>
+      <h1 className="ctext">Contact Me <hr /></h1>
       <p> Please fill the form and mention briefly what service you need</p>
       <span className="success-text">{successMessage}</span>
       </div>

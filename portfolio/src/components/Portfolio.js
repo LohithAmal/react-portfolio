@@ -156,9 +156,9 @@ fadeInSpeed:500
 }
 
   return (
-    <div className="porfolio-wrapper">
+    <div id="portfolio" className="porfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">Portfolio <hr /></h1>
+        <h1 className="ptext text-uppercase text-center py-5">Portfolio <hr /></h1>
         <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxCovid}>
            <img  className="portfolio-image  " src={Covid} alt="" /> 
