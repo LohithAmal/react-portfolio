@@ -1,5 +1,6 @@
 import React from 'react'
 import Typed from "react-typed";
+import Button  from './Button';
 const Header = () => {
   return (
     <div className="header-wraper">
@@ -12,7 +13,7 @@ const Header = () => {
         backSpeed={60}
         loop
         />
-        <a href="#" className="btn">Contact Me</a>
+        <Button label="GitHub" link="https://github.com/LohithAmal" blank="_blank"></Button>
       </div>
       
     </div>
