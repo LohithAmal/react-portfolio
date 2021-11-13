@@ -39,12 +39,12 @@ border-top: 0.200rem solid var(--primary-bootstrap-nav);
   padding: 0 !important;
   height: 6 rem !important;
 }
-.navbar-nav > li > a:active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a:active, .navbar-nav > li > a:focus {
  border-bottom:0.200rem solid var(--primary-yellow) ;;
 }
-.navbar-nav > li > a:hover{
-  border-bottom:0.200rem solid var(--primary-yellow) ;
-}
+/* .navbar-nav > li > a:hover{
+  color: var(--primary-red) ;
+} */
 /* header */
 
 .header-wraper{
