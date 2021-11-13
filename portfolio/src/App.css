@@ -86,13 +86,29 @@ border-top: 0.200rem solid var(--primary-bootstrap-nav);
   border-radius:0.313rem;
   padding: 0.625rem;
   color: var(--primary-white);
-  font-size: 1rem;
+  font-weight:bold;
+  letter-spacing: 2px; 
   margin: 2 rem;
 }
 .btn{
   text-decoration: none;
 }
 .btn:hover{
+  background-color: var(--primary-yellow);
+  font-size: 1rem;
+}
+.btn-resume{
+  border: 2px solid var(--primary-bootstrap-nav);
+  text-transform: uppercase;
+  border-radius:0.313rem;
+  padding: 0.625rem;
+  color: var(--primary-red);
+  font-size: 1rem;
+  margin: 2 rem;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.btn-resume:hover{
   background-color: var(--primary-yellow);
   font-size: 1rem;
 }
@@ -172,7 +188,7 @@ cursor: pointer;
 .portfolio-image-popupbox{
   width: 50%;
   padding: 0 0.5rem;
-  display: block;
+  display: block; 
   margin: 0 auto;
 } 
 .hyper-link{
