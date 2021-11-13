@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.6.1",
+    "react-particles-js": "^3.6.0",
+    "react-typed": "^1.2.0"
   }
 }
