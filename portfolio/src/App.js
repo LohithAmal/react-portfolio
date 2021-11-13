@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
+import Contacts from "./components/Contacts";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
    <About />
    <Portfolio />
    <Resume />
+   <Contacts />
    </>
   );
 }

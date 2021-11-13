@@ -5,9 +5,11 @@
   --primary-white: #f4f3ee;
   --primary-bootstrap-nav: #343a40;
   --primary-red:#A9333A;
+  --primary-green: #17D7A0;
 }
 body{
   font-family: 'Poppins', sans-serif !important;
+  background: var(--primary-white);
 
   
 }
@@ -104,9 +106,11 @@ border-top: 0.200rem solid var(--primary-bootstrap-nav);
   padding: 0.625rem;
   color: var(--primary-red);
   font-size: 1rem;
-  margin: 2 rem;
+  margin: 5 rem;
   text-decoration: none;
   letter-spacing: 2px;
+
+  
 }
 .btn-resume:hover{
   background-color: var(--primary-yellow);
@@ -208,4 +212,76 @@ cursor: pointer;
   .portfolio-image-popupbox{
     width: 75%;
   }
+}
+
+/* contact styling */
+.contact{
+  background: var(--primary-white);
+  padding: 3rem 0;
+}
+.contact h1{
+  color: var(--primary-bootstrap-nav);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+.contact p{
+  font-size: 1.2rem;
+}
+/* conctact */
+.contact input, .contact textarea{
+width:100%;
+box-sizing:border-box;
+resize: none;
+border: 0;
+border-bottom: 2px solid var(--primary-bootstrap-nav);
+border-radius: 0;
+color: var(--primary-bootstrap-nav);
+background-color: var(--primary-white);
+outline : 0 !important;
+box-shadow: none !important;
+margin-bottom: 1rem;
+padding-left: 0 !important;
+}
+.contact .container{
+  padding: 4rem 0;
+}
+.contact input:focus, .contact textarea:focus{
+  background: transparent;
+  color: var(--primary-red);
+  border-bottom:1 px solid var(--primary-bootstrap-nav);
+}
+.contact textarea{
+  height: 10rem !important;
+}
+.contact-btn{
+  margin:1rem 0 0 0;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid var(--primary-black);
+  color: var(--primary-red) ;
+  font-weight: bold;
+  letter-spacing:0.2rem ;
+}
+.contact-btn:hover{
+  background-color: var(--primary-yellow);
+}
+/*  */
+@media(max-width:768px){
+  .contact .container{
+    padding: 0 1rem;
+  }
+  .contact p {
+    padding: 0 0.5rem;
+  }
+}
+/* error text */
+.error-message{
+ color: var(--primary-white);
+ background: var(--primary-red);
+ text-align: left; 
+}
+.success-text{
+  font-weight: bold;
+  color: var(--primary-green);
 }
