@@ -3,21 +3,14 @@ import './App.css';
 import Particle from "react-tsparticles"
 import Navbar from "./components/Navbar"
 import Header from "./components/Header";
+import About from "./components/About";
 function App() {
   return (
     <>
-    <Particle
-      params={{
-        particle:{
-          value:30,
-          density:{
-            enable:true,
-            value_area:900
-          }
-        }
-      }}></Particle>
+    
    <Navbar> </Navbar>
    <Header></Header>
+   <About />
    </>
   );
 }
