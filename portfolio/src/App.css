@@ -42,9 +42,9 @@ border-top: 0.200rem solid var(--primary-bootstrap-nav);
 .navbar-nav > li > a:active, .navbar-nav > li > a:focus {
  border-bottom:0.200rem solid var(--primary-yellow) ;;
 }
-/* .navbar-nav > li > a:hover{
-  color: var(--primary-red) ;
-} */
+.navbar-nav > li > a:hover{
+  border-bottom:0.200rem solid var(--primary-yellow) ;
+}
 /* header */
 
 .header-wraper{
@@ -145,7 +145,7 @@ border-top: 0.200rem solid var(--primary-bootstrap-nav);
   letter-spacing: 1.1rem;
 }
 .ctext{
-  font-weight: bold;
+   font-weight: bold;
   letter-spacing: 1.1rem;
 }
 .para{
